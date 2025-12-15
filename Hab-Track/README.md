@@ -47,26 +47,31 @@ It is designed so that:
 ## 📁 Folder Structure (IMPORTANT)
 
 Mern_Starter/
-├─ Backend/
-│ ├─ src/
-│ │ ├─ db/
-│ │ │ └─ index.js
-│ │ └─ index.js
-│ ├─ .env.example
-│ ├─ .gitignore
-│ └─ package.json
 │
-├─ Hab-Track/ (Frontend)
-│ ├─ src/
-│ │ ├─ api/
-│ │ │ └─ axios.js
-│ │ ├─ App.jsx
-│ │ └─ main.jsx
-│ ├─ .env.example
-│ ├─ .gitignore
-│ └─ package.json
+├── Backend/
+│   ├── src/
+│   │   ├── db/
+│   │   │   └── index.js        # MongoDB connection logic
+│   │   └── index.js            # Express server entry point
+│   ├── .env.example            # Backend environment variables template
+│   ├── .gitignore
+│   └── package.json
 │
-└─ README.md
+├── Hab-Track/                  # Frontend (React + Vite)
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── axios.js        # API helper (optional)
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── .env.example            # Frontend environment variables template
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+
 
 
 ---
